@@ -13,6 +13,7 @@ Makefile から実行できる内容は以下の通り
 - `make link`
   - 各種シンボリックリンクの作成
   - .bin以下の.始まりのファイルの `$HOME` へのシンボリックリンク作成
+  - starship.toml のシンボリックリンク作成
 - `make brew`
   - homebrewでインストールするものを一括でインストール
   - インストールされるアプリ群(cask)は、hyper, karabiner-elements, mos, rectangle, vscode, warp

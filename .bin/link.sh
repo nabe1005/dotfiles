@@ -9,3 +9,6 @@ for dotfile in "${SCRIPT_DIR}"/.??* ; do
 
     ln -fnsv "$dotfile" "$HOME"
 done
+
+# Starship設定ファイルのシンボリックリンク作成
+ln -fnsv "${SCRIPT_DIR}/../starship/starship.toml" "$HOME/.config"
