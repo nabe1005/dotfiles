@@ -1,0 +1,19 @@
+# This is Git's per-user configuration file.
+[user]
+	name = nabe1005
+	email = 36324839+nabe1005@users.noreply.github.com
+[pull]
+	rebase = false
+[core]
+	editor = vim -c \"set fenc=utf-8\"
+[alias]
+        co = checkout
+		cp = cherry-pick
+		sw = switch
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[ghq]
+	root = ~/development
